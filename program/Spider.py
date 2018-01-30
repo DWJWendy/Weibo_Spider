@@ -14,7 +14,7 @@ from program.Prelogin import login_weibo,getData
 from program.logfile import logger
 
 class Weibo_Spider(object):
-    login_weibo("17862706773","159357")
+    login_weibo("××××","××")
     def __init__(self):
         self.host = "https://weibo.com/p/aj/v6/mblog/mbloglist?ajwvr=6&domain=100606&is_search=0&visible=0&is_all=1&is_tag=0&profile_ftype=1&"
         self.ID = [1006062557129567,1006061902909102,1006061809745371,1006061689575103,1006061888640485,
